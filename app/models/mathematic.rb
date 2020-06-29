@@ -1,0 +1,2 @@
+class Mathematic < ApplicationRecord
+end

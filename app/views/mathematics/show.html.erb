@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @mathematic.title %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @mathematic.message %>
+</p>
+
+<%= link_to 'Edit', edit_mathematic_path(@mathematic) %> |
+<%= link_to 'Back', mathematics_path %>
